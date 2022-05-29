@@ -1,0 +1,35 @@
+.invest {
+    height: 580px;
+    &__blocks {
+        display: flex;
+        padding: 61px 0 100px 0;
+        column-gap: 50px;
+    }
+    &__items {
+        position: relative;
+        width: 500px;
+        height: 460px;
+        border: 1px solid $bord-color;
+        border-radius: 50px 0px 50px 0px / 45px 0px 45px 0px;
+        img {
+            position: absolute;
+            width: 150px;
+            height: 90px;
+            top: -45px;
+            left: 350px;
+            border-radius: 50px 0px 50px 0px / 45px 0px 45px 0px;
+        }
+        &-title {
+            padding: 48px 48px 0 48px;
+            font-size: 18px;
+            color: #212125;
+            font-weight: 600;
+        }
+        &-text {
+            padding: 16px 48px 38px 48px;
+            line-height: 24px;
+            font-size: 16px;
+        }
+        
+    }
+}

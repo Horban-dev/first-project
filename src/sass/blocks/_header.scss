@@ -1,0 +1,130 @@
+.main {
+    position: relative;
+    min-height: 625px;
+    display: inline;
+    &__header {
+        display: flex;
+        position: relative;
+    }
+    &__my-slider {
+        display: flex;
+        left: 100px;
+        &-wrapper {
+         display: flex;
+        }
+        
+        &-bg {
+        height: 440px;
+        padding: 0 150px 100px 170px;
+        background: url('../../img/main.jpg') center (center/cover) no-repeat; 
+        h1 {
+            padding: 48px 0 0 64px;
+            color: #FEFEFF;
+            font-weight: 800;
+            font-size: 36px;;
+        }
+        &-text {
+            padding: 24px 0 0 175px;
+            color:#FEFEFF;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    }
+    &__logo {
+        display: flex;
+        justify-content: space-evenly;
+        width: 133px;
+        height: 25px;
+        padding: 30px 65px 30px 160px;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between; 
+        margin: 0; 
+        list-style-type: none; 
+        padding: 32px 200px 0 0;
+        width: 633px;
+        height: 53px;
+        a {
+            text-decoration: none;
+            color: #D9D9D9;
+        &:hover { 
+            color: #000;
+        }
+        }
+    }
+    &__language {
+        display: flex;
+        padding: 32px 33px 32px 0;
+        width: 49px;
+        height: 20px;
+    }
+    &__contact {
+        
+        display: flex;
+        justify-content: space-around;
+        width: 208px;
+        height: 36px;
+        padding: 24px 105px 25px 0;
+        margin: 0 auto;
+        top: 10px;
+        &-wrapper {
+            width: 36px;
+            height: 36px;
+            background-color: $main-color;
+            border-radius: 100%;
+            img {
+                padding: 10px 9px 9px 10px;
+                width: 14.25px;
+                height: 14.25px;
+            }
+        }
+        &-tel {
+            position: relative;
+            margin: 0 auto;
+            top: 7px;
+            font-size: 16px;
+            line-height: 20px;
+            color: inherit;
+            cursor: pointer;
+            
+        }
+        
+    }
+    
+/*     #tns1 {
+        width: calc(500%);
+        margin-top: 120px;
+    }
+        .tns-controls {
+            position: relative;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        button {
+            border: none;
+            background-color: #fff;
+        }
+    }
+        .tns-nav {
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            width: 75px;
+            height: 15px;
+            button {
+                border: 1px solid #9393A0;
+                width: 10px;
+                height: 10px;
+                border-radius:  100%;
+            }
+            .tns-nav-active {
+                 background: #FFBD12;
+                 width: 15px;
+                 height: 15px;
+            }
+        }
+     */
+}

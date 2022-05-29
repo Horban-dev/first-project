@@ -1,0 +1,26 @@
+@import 'base/variables';
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    width: 1900px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/news';
+@import 'blocks/work';
+@import 'blocks/invest';
+@import 'blocks/media';
+@import 'blocks/info';
+@import 'blocks/footer';
+@import 'blocks/menu';
+@import 'base/media';
